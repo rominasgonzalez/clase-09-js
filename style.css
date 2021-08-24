@@ -1,0 +1,216 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+header nav{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    margin-right: 18%;
+    margin-left: 20px;
+    
+    
+}
+
+nav .logo img{
+    width: 13vw;
+    margin: 3px;
+}
+
+nav ul{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+nav ul li{
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+nav .cart img{
+    width: 13vw;
+    margin: 3px;
+}
+
+div .contenedorPadre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorPadre h1{
+    width: 100vw;
+    height: 220px;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/*------------------- Las Clasicas ---------------------------*/
+.lasClasicas{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lasClasicas h2{
+    margin-left: 95px;
+    padding: 40px 0;
+    font-size: 32px;
+}
+
+.lasClasicas div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 95px;
+    margin-right: 110px;
+}
+
+
+.lasClasicas div img{
+    width: 352px;
+}
+
+/*------------------- Las Gourmet ---------------------------*/
+
+.lasgourmet{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lasgourmet h2{
+    margin-left: 95px;
+    padding: 40px 0;
+    font-size: 32px;
+}
+
+.lasgourmet > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 95px;
+    margin-right: 110px;
+
+}
+
+.lasgourmet div img {
+    width: 532px;
+}
+
+.lasgourmet div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.lasgourmet div div img {
+    width: 262px;
+}
+
+/*------------------- Las Especiales ---------------------------*/
+
+.lasEspeciales{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lasEspeciales h2{
+    margin-left: 95px;
+    padding: 40px 0;
+    font-size: 32px;
+}
+
+.lasEspeciales div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 95px;
+    margin-right: 110px;
+}
+
+.lasEspeciales div img{
+    width: 352px;
+}
+
+/*------------------- Las Vegetarianas ---------------------------*/
+
+.lasVegetarianas{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lasVegetarianas h2{
+    margin-left: 95px;
+    padding: 40px 0;
+    font-size: 32px;
+}
+
+.lasVegetarianas div{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 95px;
+    margin-right: 110px;
+}
+
+
+.lasVegetarianas div img{
+    width: 352px;
+    margin-right: 8px;
+}
+
+/*------------------- Imagenes con CSS ---------------------------*/
+.pruebaImagenConCSS{
+    background-image: url("./imagenes/imagenes/queso-2.jpg");
+    background-size: cover;
+    height: 352px;
+    width: 352px;
+}
+
+/*------------------- hover ---------------------------*/
+
+
+
+a:hover{
+    border-bottom: 2px solid black;
+}
+.lasClasicas a:hover {
+    background-image: linear-gradient(to bottom,     
+    rgba(233, 46, 21, 0.733), 
+    rgba(233, 46, 21, 0.733)), url("./imagenes/imagenes/queso-2.jpg");
+    opacity: .5;
+}
